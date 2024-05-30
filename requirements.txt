@@ -1,0 +1,4 @@
+python-telegram-bot==13.11
+librosa==0.8.1
+numpy==1.21.0
+pydub==0.25.1
