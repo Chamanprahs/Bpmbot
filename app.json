@@ -1,0 +1,17 @@
+{
+  "name": "BPM Detector Bot",
+  "description": "A Telegram bot to detect BPM and scale of audio files.",
+  "repository": "https://github.com/chamanprahs/Bpmbot",
+  "keywords": ["telegram", "bot", "bpm", "music"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "The token for your Telegram bot from BotFather",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
